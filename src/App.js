@@ -1,8 +1,17 @@
+import { Download, Features, SectionWrapper } from './components';
+import assets from './assets';
+
 const App = () => {
   return (
-    <div>
-      <h1 class="text-3xl font-bold underline">nft showcase</h1>
-    </div>
+    <>
+      <SectionWrapper
+        title="Your NFT Store. Start Selling and Growing"
+        description="Buy, store, collect NFT, exchange and earn crypto. Join 50+ million people using ProNef Marketplace"
+        showBtn
+        mockupImg={assets.homeHero}
+        banner="banner"
+      />
+    </>
   );
 };
 
